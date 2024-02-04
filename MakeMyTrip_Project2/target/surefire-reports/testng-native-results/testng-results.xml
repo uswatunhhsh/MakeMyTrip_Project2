@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-04T13:20:58 WIB" name="Surefire suite" finished-at="2024-02-04T13:22:02 WIB" duration-ms="63391">
+    <groups>
+    </groups>
+    <test started-at="2024-02-04T13:20:58 WIB" name="Surefire test" finished-at="2024-02-04T13:22:02 WIB" duration-ms="63391">
+      <class name="org.example.Country_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.Country_Test@2b546384]" started-at="2024-02-04T13:21:33 WIB" name="setup" finished-at="2024-02-04T13:21:38 WIB" duration-ms="4716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectCountry()[pri:0, instance:org.example.Country_Test@2b546384]" started-at="2024-02-04T13:21:38 WIB" name="selectCountry" finished-at="2024-02-04T13:22:01 WIB" duration-ms="22721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:org.example.Country_Test@2b546384]" started-at="2024-02-04T13:22:01 WIB" name="TearDown" finished-at="2024-02-04T13:22:02 WIB" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- org.example.Country_Test -->
+      <class name="org.example.HomePage_Test">
+        <test-method is-config="true" signature="globalSetUp()[pri:0, instance:org.example.HomePage_Test@105fece7]" started-at="2024-02-04T13:20:58 WIB" name="globalSetUp" finished-at="2024-02-04T13:20:58 WIB" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSetUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.HomePage_Test@105fece7]" started-at="2024-02-04T13:20:58 WIB" name="setup" finished-at="2024-02-04T13:21:05 WIB" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectFomCity()[pri:0, instance:org.example.HomePage_Test@105fece7]" started-at="2024-02-04T13:21:05 WIB" name="selectFomCity" finished-at="2024-02-04T13:21:33 WIB" duration-ms="28001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFomCity -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:org.example.HomePage_Test@105fece7]" started-at="2024-02-04T13:21:33 WIB" name="TearDown" finished-at="2024-02-04T13:21:33 WIB" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="globalTearDown()[pri:0, instance:org.example.HomePage_Test@105fece7]" started-at="2024-02-04T13:22:07 WIB" name="globalTearDown" finished-at="2024-02-04T13:22:07 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalTearDown -->
+      </class> <!-- org.example.HomePage_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
